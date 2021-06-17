@@ -22,6 +22,12 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    font-size:40px;
+    transition-duration: .5s;
+    text-decoration: underline #438FFA;
+}
+
 nav.barOne {
     font-size: 30px;
     width: 100%;
