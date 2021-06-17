@@ -20,6 +20,7 @@ h1 {
 }
 nav a {
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
 }
 
 nav a:hover {
