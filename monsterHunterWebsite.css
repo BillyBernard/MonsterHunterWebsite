@@ -4,26 +4,27 @@ body {
 
 h1 {
     position: relative;
-    top: 100px;
+    top: 200px;
     line-height: 200px;
-    font-size: 45px;
+    font-size: 50px;
     word-spacing: 10px;
     text-align: center;
     font-family: 'Sigmar One', cursive;
     padding: 50px;
     border-bottom: 5px solid #000000;
-    border-top: 5px solid #000000;
+    border-top: 5px solid #000000;  
 }
 
 nav {
     text-align: center;
-    height: 60px;
+    height: 90px;
     background-color: #FA4347;
     position: fixed;
     width: 100%;
     top: 0;
     left:0;
     z-index: 1;
+    padding-top: 2em;
 }
 
 nav a {
@@ -32,8 +33,7 @@ nav a {
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     color: #000000;
-    margin: 0 2em;
-    
+    margin: 3em;
 }
 
 nav a:hover {
@@ -46,7 +46,7 @@ nav a:hover {
     display: flex;
     justify-content: space-around;
     position: relative;
-    top: 150px;
+    top: 250px;
     z-index: 0;
   }
   
@@ -93,7 +93,7 @@ nav a:hover {
 
 p {
     position: relative;
-    top: 200px;
+    top: 300px;
     display: block;
     margin-bottom: 500px;
     margin-left: auto;
